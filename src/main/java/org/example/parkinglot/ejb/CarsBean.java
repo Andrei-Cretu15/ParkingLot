@@ -1,10 +1,9 @@
-package org.ejb;
+package org.example.parkinglot.ejb;
 
 import jakarta.ejb.EJBException;
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import jakarta.persistence.Query;
 import jakarta.persistence.TypedQuery;
 import org.example.parkinglot.entities.Car;
 import org.parkinglot.parkinglot.common.CarDto;

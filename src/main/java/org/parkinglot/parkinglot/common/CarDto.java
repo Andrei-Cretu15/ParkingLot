@@ -16,8 +16,14 @@ public class CarDto {
     public Long getId() {
         return id;
     }
-
-    public String licensePlate() {
+    public String getLicensePlate() {
         return licensePlate;
-        }
+    }
+    public String getParkingSpot() {
+        return parkingSpot;
+    }
+    public String getOwnerName() {
+        return ownerName;
+    }
+
 }

@@ -16,8 +16,8 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    @Column(name = "emai")
-    private String emai;
+    @Column(name = "email")
+    private String email;
 
     @Column(name = "username")
     private String username;
@@ -41,12 +41,12 @@ public class User {
         this.password = password;
     }
 
-    public String getEmai() {
-        return emai;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEmai(String emai) {
-        this.emai = emai;
+    public void setEmail(String emai) {
+        this.email = emai;
     }
 
     public String getUsername() {
@@ -63,6 +63,11 @@ public class User {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getName() {
+
+        return username;
     }
 
 }
